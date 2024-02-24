@@ -1,4 +1,4 @@
-package es.uah.matcomp.ej1;
+package SOO3.Clases;
 
 import java.sql.Time;
 

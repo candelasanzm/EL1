@@ -1,4 +1,6 @@
-import es.uah.matcomp.ej1.Circle;
+package SOO3;
+
+import SOO3.Clases.Circle;
 
 public class MainCircle {
     public static void main(String[] args) {

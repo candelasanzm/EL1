@@ -1,4 +1,4 @@
-package es.uah.matcomp.ej1;
+package SOO3.Clases;
 
 public class Circle {
     private double radius = 1.0;
@@ -27,6 +27,6 @@ public class Circle {
     }
 
     public String toString(){
-        return "es.uah.matcomp.ej1.Circle[radius = " + radius + "]";
+        return "SOO3.ej1.Circle[radius = " + radius + "]";
     }
 }

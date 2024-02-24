@@ -1,4 +1,6 @@
-import es.uah.matcomp.ej1.Rectangle;
+package SOO3;
+
+import SOO3.Clases.Rectangle;
 
 public class MainRectangle {
     public static void main(String[] args) {

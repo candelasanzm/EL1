@@ -1,4 +1,6 @@
-import es.uah.matcomp.ej1.ClassTime;
+package SOO3;
+
+import SOO3.Clases.ClassTime;
 
 public class MainClassTime {
     public static void main(String[] args) {

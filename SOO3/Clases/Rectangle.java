@@ -1,4 +1,4 @@
-package es.uah.matcomp.ej1;
+package SOO3.Clases;
 
 public class Rectangle {
     private float length = 1.0f;
@@ -37,6 +37,6 @@ public class Rectangle {
     }
 
     public String toString(){
-        return "es.uah.matcomp.ej1.Rectangle[length = " + length + " width = " + width + "]";
+        return "SOO3.ej1.Rectangle[length = " + length + " width = " + width + "]";
     }
 }

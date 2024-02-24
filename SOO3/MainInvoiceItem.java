@@ -1,4 +1,6 @@
-import es.uah.matcomp.ej1.InvoiceItem;
+package SOO3;
+
+import SOO3.Clases.InvoiceItem;
 
 public class MainInvoiceItem {
     public static void main(String[] args) {

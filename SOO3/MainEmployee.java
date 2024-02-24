@@ -1,4 +1,6 @@
-import es.uah.matcomp.ej1.Employee;
+package SOO3;
+
+import SOO3.Clases.Employee;
 
 public class MainEmployee {
     public static void main(String[] args) {

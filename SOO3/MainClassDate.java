@@ -1,4 +1,6 @@
-import es.uah.matcomp.ej1.ClassDate;
+package SOO3;
+
+import SOO3.Clases.ClassDate;
 
 public class MainClassDate {
     public static void main(String[] args) {

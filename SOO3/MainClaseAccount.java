@@ -1,4 +1,6 @@
-import es.uah.matcomp.ej1.ClaseAccount;
+package SOO3;
+
+import SOO3.Clases.ClaseAccount;
 
 public class MainClaseAccount {
     public static void main(String[] args) {
