@@ -1,7 +1,5 @@
 package SOO3.Clases;
 
-import java.sql.Time;
-
 public class ClassTime {
     private int hour;
     private int minute;
@@ -17,7 +15,9 @@ public class ClassTime {
     }
 
     public void setHour(int hour) {
-        this.hour = hour;
+        if (0 <= hour && hour <= 23){
+            this.hour = hour;
+        }
     }
 
     public int getMinute() {
@@ -25,7 +25,9 @@ public class ClassTime {
     }
 
     public void setMinute(int minute) {
-        this.minute = minute;
+        if (0 <= minute && minute <= 59){
+            this.minute = minute;
+        }
     }
 
     public int getSecond() {
@@ -33,25 +35,34 @@ public class ClassTime {
     }
 
     public void setSecond(int second) {
-        this.second = second;
+        if (0 <= second && second <= 59){
+            this.second = second;
+        }
     }
 
     public void setTime (int hour, int minute, int second){
-        this.hour = hour;
-        this.minute = minute;
-        this.second = second;
+        setHour(hour);
+        setMinute(minute);
+        setSecond(second);
     }
 
     public String toString (){
-        return hour + "/" + minute + "/" + second;
+        return hour + ":" + minute + ":" + second;
     }
 
-    public Time nextSecond(){
-        this.second = second + 1;
-        return second;
+    public ClassTime nextSecond(){
+        this.second ++;
+        if (this.second > 59){
+            this.second = 0;
+        }
+        return this;
     }
 
-    public Time previousSecond(){
-        return second;
+    public ClassTime previousSecond(){
+        this.second --;
+        if (this.second < 0){
+            this.second = 59;
+        }
+        return this;
     }
 }
