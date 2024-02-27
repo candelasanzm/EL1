@@ -1,8 +1,8 @@
 package SOO4.Clases;
 
 public class MyPoint {
-    private int x = 0;
-    private int y = 0;
+    private int x ;
+    private int y ;
     public MyPoint(){
     }
 
@@ -39,13 +39,13 @@ public class MyPoint {
     public String toString (){
         return "(" + x + ", " + y + ")";
     }
-    public double distance (int x, int y){
-        return Math.sqrt(((x - this.x)^2)+ ((y - this.y)^2));
+    public double distanceint (int x, int y){
+        return Math.sqrt( ( ( x - this.x ) ^2 ) + ( ( y - this.y ) ^2 ) );
     }
     public double distance (MyPoint another){
-        return Math.sqrt(((another.x - this.x)^2)+ ((another.y - this.y)^2));
+        return Math.sqrt( ( (another.x - this.x) ^2 ) + ( (another.y - this.y) ^2 ) );
     }
-    public double distance (){
-        return Math.sqrt((y-x)^2);
+    public double distanceult (){
+        return Math.sqrt( (y - x) ^2 );
     }
 }

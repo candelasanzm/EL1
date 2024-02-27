@@ -27,6 +27,6 @@ public class Circle {
     }
 
     public String toString(){
-        return "SOO3.ej1.Circle[radius = " + radius + "]";
+        return "Circle[radius = " + radius + "]";
     }
 }

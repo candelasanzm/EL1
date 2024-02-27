@@ -29,8 +29,8 @@ public class ClaseAccount {
     }
 
     public int credit (int amount){
-        balance += amount;
-        return balance;
+        this.balance = balance + amount;
+        return this.balance;
     }
 
     public int debit (int amount){
@@ -39,7 +39,7 @@ public class ClaseAccount {
         }
         else
             System.out.println("Amount exceeded balance");
-        return balance;
+        return this.balance;
     }
 
     public int transferTo (ClaseAccount another, int amount){

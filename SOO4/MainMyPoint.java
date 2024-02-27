@@ -19,7 +19,7 @@ public class MainMyPoint {
         // Testing the overloaded methods distance()
         System.out.println(p1.distance(p2)); // which version?
         System.out.println(p2.distance(p1)); // which version?
-        System.out.println(p1.distance(5, 6)); // which version?
-        System.out.println(p1.distance()); // which version?
+        System.out.println(p1.distanceint(5, 6)); // which version?
+        System.out.println(p1.distanceult()); // which version?
     }
 }
