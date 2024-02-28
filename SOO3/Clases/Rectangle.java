@@ -37,6 +37,6 @@ public class Rectangle {
     }
 
     public String toString(){
-        return "SOO3.ej1.Rectangle[length = " + length + " width = " + width + "]";
+        return "Rectangle[length = " + length + " width = " + width + "]";
     }
 }

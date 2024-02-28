@@ -38,7 +38,7 @@ public class Invoice {
     }
     public double getAmountAfterDiscount(){
         this.amount = amount - ((amount * 8)/100) ;
-        return amount;
+        return this.amount;
     }
     public String toString(){
         return "Invoice[id = " + id + ", " + customer + ", amount = " + amount + "]";
