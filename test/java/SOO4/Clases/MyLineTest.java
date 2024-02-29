@@ -98,7 +98,7 @@ class MyLineTest {
         MyPoint begin = new MyPoint(1, 2);
         MyPoint end = new MyPoint(3, 1);
         MyLine l1 = new MyLine(begin, end);
-        int [] esp = new int[] {2,1};
+        int [] esp = new int[] {2, -1};
         assertArrayEquals(esp, l1.getBeginXY());
     }
 
@@ -118,7 +118,7 @@ class MyLineTest {
         MyPoint end = new MyPoint(3, 1);
         MyLine l1 = new MyLine(begin, end);
         int [] esp = new int[] {4,3};
-        assertArrayEquals(esp, l1.getEndXY());
+        assertEquals(esp, l1.getEndXY());
     }
 
     @Test
@@ -141,11 +141,10 @@ class MyLineTest {
 
     @Test
     void getGradien() {
-        MyLine l1 = new MyLine(1, 2, 3, 4);
-        int xDiff = (int) Math.atan2(2);
-        int yDiff = (int) Math.atan2(2);
-        int [] Diff = new int [] {yDiff, xDiff};
-        assertArrayEquals(Diff, l1.getGradien()); 
+        MyPoint begin = new MyPoint(1, 2);
+        MyPoint end = new MyPoint(3, 1);
+        MyLine l1 = new MyLine(begin, end);
+        assertEquals(Math.atan2(2, -1), l1.getGradien());
     }
 
     @Test

@@ -55,7 +55,6 @@ public class MyCircle {
         return 2 * Math.PI * radius;
     }
     public double distance (MyCircle another){
-        double distance = center.distance(another.getCenter());
-        return distance;
+        return center.distance(another.getCenter());
     }
 }
