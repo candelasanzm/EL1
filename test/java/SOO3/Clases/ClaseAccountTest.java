@@ -27,13 +27,13 @@ class ClaseAccountTest {
     @Test
     void credit() {
         ClaseAccount c1 = new ClaseAccount("A101", "Tan Ah Teck", 88);
-        assertEquals(88, c1.credit(100));
+        assertEquals(188, c1.credit(100));
     }
 
     @Test
     void debit() {
         ClaseAccount c1 = new ClaseAccount("A101", "Tan Ah Teck", 88);
-        assertEquals(88, c1.debit(50));
+        assertEquals(38, c1.debit(50));
     }
 
     @Test
