@@ -99,7 +99,7 @@ class MyLineTest {
         MyPoint end = new MyPoint(3, 1);
         MyLine l1 = new MyLine(begin, end);
         int [] esp = new int[] {2, -1};
-        assertArrayEquals(esp, l1.getBeginXY());
+        assertEquals(esp, l1.getBeginXY());
     }
 
     @Test
@@ -117,7 +117,7 @@ class MyLineTest {
         MyPoint begin = new MyPoint(1, 2);
         MyPoint end = new MyPoint(3, 1);
         MyLine l1 = new MyLine(begin, end);
-        int [] esp = new int[] {4,3};
+        int [] esp = new int [] {4,3};
         assertEquals(esp, l1.getEndXY());
     }
 

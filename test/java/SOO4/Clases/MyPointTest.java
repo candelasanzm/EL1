@@ -58,20 +58,18 @@ class MyPointTest {
     void distance() {
         MyPoint p1 = new MyPoint(3, 4);
         MyPoint p2 = new MyPoint(0, 4);
-        assertEquals(3.0, p1.distance(p2));
+        assertEquals(3, p1.distance(p2));
     }
 
     @Test
     void testDistance() {
         MyPoint p1 = new MyPoint(3, 4);
-        MyPoint p2 = new MyPoint(5, 6);
-        assertEquals(-2,-2, p1.distance(p2));
+        assertEquals(3, p1.distance(0,4));
     }
 
     @Test
     void testDistance1() {
-        MyPoint p1 = new MyPoint(3, 4);
-        MyPoint p2 = new MyPoint(5, 6);
-        assertEquals(2,2, p2.distance(p1));
+        MyPoint p1 = new MyPoint();
+        assertEquals(0, p1.distance());
     }
 }

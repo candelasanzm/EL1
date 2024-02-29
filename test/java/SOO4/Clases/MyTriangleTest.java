@@ -34,5 +34,7 @@ class MyTriangleTest {
         MyPoint v3 = new MyPoint(4, 1);
         MyTriangle t1 = new MyTriangle(v1, v2, v3);
         assertEquals("Escaleno", t1.getType());
+        assertEquals("Equilátero", t1.getType());
+        assertEquals("Isósceles", t1.getType());
     }
 }

@@ -10,7 +10,7 @@ class AccountTest {
     @Test
     void getId() {
         Customer2 c21 = new Customer2(88, "Tan Ah Teck", 'm');
-        Account a1 = new Account(101, c21, 888.8);
+        Account a1 = new Account(101, c21);
         assertEquals(101, a1.getId());
     }
 
@@ -61,6 +61,7 @@ class AccountTest {
     void withdraw() {
         Customer2 c21 = new Customer2(88, "Tan Ah Teck", 'm');
         Account a1 = new Account(101, c21, 888.8);
-        assertEquals(a1, a1.withdraw(50));
+        Account a2 = new Account(101, c21, 888.8);
+        assertEquals(a1, a1.withdraw(50),"amount widthdrawn exceeds the current balance!");
     }
 }

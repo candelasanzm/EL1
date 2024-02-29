@@ -10,21 +10,21 @@ class BookTest {
     @Test
     void getIsbn() {
         Author a1 = new Author("Tan Ah Teck", "ahteck@nowhere.com");
-        Book b1 = new Book("12345", "Java for dummies", a1, 8.8, 88);
+        Book b1 = new Book("12345", "Java for dummies", a1, 8.8);
         assertEquals("12345", b1.getIsbn());
     }
 
     @Test
     void getName() {
         Author a1 = new Author("Tan Ah Teck", "ahteck@nowhere.com");
-        Book b1 = new Book("12345", "Java for dummies", a1, 8.8, 88);
+        Book b1 = new Book("12345", "Java for dummies", a1, 8.8);
         assertEquals("Java for dummies", b1.getName());
     }
 
     @Test
     void getAuthor() {
         Author a1 = new Author("Tan Ah Teck", "ahteck@nowhere.com");
-        Book b1 = new Book("12345", "Java for dummies", a1, 8.8, 88);
+        Book b1 = new Book("12345", "Java for dummies", a1, 8.8);
         assertEquals(a1, b1.getAuthor());
     }
 

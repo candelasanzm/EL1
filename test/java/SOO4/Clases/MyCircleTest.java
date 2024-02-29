@@ -109,6 +109,7 @@ class MyCircleTest {
     void distance() {
         MyPoint centro1 = new MyPoint(1, 2);
         MyPoint centro2 = new MyPoint(0, 0);
+        MyCircle c1 = new MyCircle();
         assertEquals(Math.sqrt(5), centro1.distance(centro2));
     }
 }

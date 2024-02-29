@@ -8,7 +8,7 @@ class Point3DTest {
 
     @Test
     void getZ() {
-        Point3D p3D1 = new Point3D(0, 0, 0);
+        Point3D p3D1 = new Point3D();
         assertEquals(0, p3D1.getZ());
     }
 

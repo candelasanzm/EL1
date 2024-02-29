@@ -8,7 +8,7 @@ class Point2DTest {
 
     @Test
     void getX() {
-        Point2D p2D1 = new Point2D(0, 0);
+        Point2D p2D1 = new Point2D();
         assertEquals(0, p2D1.getX());
     }
 
