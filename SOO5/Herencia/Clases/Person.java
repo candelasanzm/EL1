@@ -20,6 +20,7 @@ public class Person {
     public void setAdress(String adress) {
         this.adress = adress;
     }
+    @Override
     public String toString (){
         return "Person[name = " + name + ", adress = " + adress + "]";
     }

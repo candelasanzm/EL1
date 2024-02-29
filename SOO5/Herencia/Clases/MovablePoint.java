@@ -1,6 +1,6 @@
 package SOO5.Herencia.Clases;
 
-public class MovablePoint extends Point{
+public class MovablePoint extends Point2D{
     private float xSpeed;
     private float ySpeed;
 
@@ -40,12 +40,20 @@ public class MovablePoint extends Point{
     public float [] getSpeed(){
         return new float[] {this.xSpeed, this.ySpeed};
     }
+    @Override
     public String toString(){
         return super.toString() + ", speed = (" + xSpeed + ", " + ySpeed + ")";
     }
-    public MovablePoint move(){
-        super(x);
-        this.y += ySpeed;
-        return this;
+    public void moveUp(){
+        y -= ySpeed;
+    }
+    public void moveDown(){
+        y += ySpeed;
+    }
+    public void moveLeft(){
+        x -= xSpeed;
+    }
+    public void moveRight(){
+        x += xSpeed;
     }
 }
