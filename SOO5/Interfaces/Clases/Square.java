@@ -26,6 +26,7 @@ public class Square extends Rectangle{
     public void setLength(double side){
         this.side = side;
     }
+    @Override
     public String toString(){
         return "Square [" + super.toString() + "]";
     }
