@@ -8,26 +8,26 @@ class RectangleTest {
 
     @Test
     void getWidth() {
-        Rectangle r1 = new Rectangle("red", true, 1.0, 1.0);
+        Rectangle r1 = new Rectangle(1.0, 1.0);
         assertEquals(1.0, r1.getWidth());
     }
 
     @Test
     void setWidth() {
-        Rectangle r1 = new Rectangle("red", true, 1.0, 1.0);
+        Rectangle r1 = new Rectangle(1.0, 1.0);
         r1.setWidth(1.0);
         assertEquals(1.0, r1.getWidth());
     }
 
     @Test
     void getLength() {
-        Rectangle r1 = new Rectangle("red", true, 1.0, 1.0);
+        Rectangle r1 = new Rectangle(1.0, 1.0);
         assertEquals(1.0, r1.getLength());
     }
 
     @Test
     void setLength() {
-        Rectangle r1 = new Rectangle("red", true, 1.0, 1.0);
+        Rectangle r1 = new Rectangle();
         r1.setLength(1.0);
         assertEquals(1.0, r1.getLength());
     }

@@ -8,13 +8,13 @@ class CircleTest {
 
     @Test
     void getRadius() {
-        Circle c1 = new Circle("red", true, 1.0);
+        Circle c1 = new Circle(1.0);
         assertEquals(1.0, c1.getRadius());
     }
 
     @Test
     void setRadius() {
-        Circle c1 = new Circle("red", true, 1.0);
+        Circle c1 = new Circle();
         c1.setRadius(1.0);
         assertEquals(1.0, c1.getRadius());
     }

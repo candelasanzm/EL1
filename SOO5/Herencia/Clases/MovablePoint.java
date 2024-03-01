@@ -44,16 +44,9 @@ public class MovablePoint extends Point2D{
     public String toString(){
         return super.toString() + ", speed = (" + xSpeed + ", " + ySpeed + ")";
     }
-    public void moveUp(){
-        y -= ySpeed;
-    }
-    public void moveDown(){
-        y += ySpeed;
-    }
-    public void moveLeft(){
-        x -= xSpeed;
-    }
-    public void moveRight(){
-        x += xSpeed;
+    public MovablePoint move(){
+        setX(getX() + xSpeed);
+        setY(getY() + ySpeed);
+        return this;
     }
 }
