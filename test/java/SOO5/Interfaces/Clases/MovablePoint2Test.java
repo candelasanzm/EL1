@@ -14,25 +14,33 @@ class MovablePoint2Test {
 
     @Test
     void moveUp() {
-        Movable2 m1 = new MovablePoint2(2, 1, 1, 4);
-        assertEquals(-3, m1.moveUp());
+        MovablePoint2 m1 = new MovablePoint2(2, 1, 1, 4);
+        m1.moveUp();
+        assertEquals(2, m1.x);
+        assertEquals(-3, m1.y);
     }
 
     @Test
     void moveDown() {
-        Movable2 m1 = new MovablePoint2(2, 1, 1, 4);
-        assertEquals(5, m1.moveDown());
+        MovablePoint2 m1 = new MovablePoint2(2, 1, 1, 4);
+        m1.moveDown();
+        assertEquals(2, m1.x);
+        assertEquals(5, m1.y);
     }
 
     @Test
     void moveLeft() {
-        Movable2 m1 = new MovablePoint2(2, 1, 1, 4);
-        assertEquals(1, m1.moveLeft());
+        MovablePoint2 m1 = new MovablePoint2(2, 1, 1, 4);
+        m1.moveLeft();
+        assertEquals(1, m1.x);
+        assertEquals(1, m1.y);
     }
 
     @Test
     void moveRigth() {
-        Movable2 m1 = new MovablePoint2(2, 1, 1, 4);
-        assertEquals(3, m1.moveRigth());
+        MovablePoint2 m1 = new MovablePoint2(2, 1, 1, 4);
+        m1.moveRigth();
+        assertEquals(3, m1.x);
+        assertEquals(1, m1.y);
     }
 }

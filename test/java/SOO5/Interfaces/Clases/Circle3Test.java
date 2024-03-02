@@ -9,7 +9,7 @@ class Circle3Test {
     @Test
     void testToString() {
         GeometricObject2 g21 = new Circle3(1);
-        assertEquals("Circle [radius = " + 1 + "]", g21.toString());
+        assertEquals("Circle [radius = " + 1.0 + "]", g21.toString());
     }
 
     @Test

@@ -15,25 +15,33 @@ class MovableCircleTest {
 
     @Test
     void moveUp() {
-        Movable2 m2 = new MovableCircle(2, 1, 1, 4, 1);
-        assertEquals(-3, m2.moveUp());
+        MovableCircle m1 = new MovableCircle(2, 1, 1, 4, 1);
+        m1.moveUp();
+        assertEquals(2, m1.x);
+        assertEquals(-3, m1.y);
     }
 
     @Test
     void moveDown() {
-        Movable2 m2 = new MovableCircle(2, 1, 1, 4, 1);
-        assertEquals(5, m2.moveDown());
+        MovableCircle m1 = new MovableCircle(2, 1, 1, 4, 1);
+        m1.moveDown();
+        assertEquals(2, m1.x);
+        assertEquals(5, m1.y);
     }
 
     @Test
     void moveLeft() {
-        Movable2 m2 = new MovableCircle(2, 1, 1, 4, 1);
-        assertEquals(1, m2.moveLeft());
+        MovableCircle m1 = new MovableCircle(2, 1, 1, 4, 1);
+        m1.moveLeft();
+        assertEquals(1, m1.x);
+        assertEquals(1, m1.y);
     }
 
     @Test
     void moveRigth() {
-        Movable2 m2 = new MovableCircle(2, 1, 1, 4, 1);
-        assertEquals(3, m2.moveRigth());
+        MovableCircle m1 = new MovableCircle(2, 1, 1, 4, 1);
+        m1.moveRigth();
+        assertEquals(3, m1.x);
+        assertEquals(1, m1.y);
     }
 }

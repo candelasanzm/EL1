@@ -15,9 +15,8 @@ class ResizableCircleTest {
 
     @Test
     void resize() {
-        int porcentaje = 20;
-        Resizable r1 = new ResizableCircle(1);
-        r1.resize(porcentaje);
-        assertEquals(20/100, r1.resize());
+        ResizableCircle r1 = new ResizableCircle(1);
+        r1.resize(20);
+        assertEquals(20/100, r1.radius);
     }
 }
