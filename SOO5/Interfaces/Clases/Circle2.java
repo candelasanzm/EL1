@@ -1,7 +1,7 @@
 package SOO5.Interfaces.Clases;
 
 public class Circle2 implements GeometricObject{
-    protected double radius;
+    private double radius;
     public Circle2 (double radius){
         this.radius = radius;
     }
@@ -19,13 +19,4 @@ public class Circle2 implements GeometricObject{
         return 2 * radius * Math.PI;
     }
 
-    @Override
-    public double getArea(float x, float y) {
-        return 0;
-    }
-
-    @Override
-    public double getPerimeter(float x, float y) {
-        return 0;
-    }
 }

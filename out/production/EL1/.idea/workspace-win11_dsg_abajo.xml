@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c989a0ad-76e0-4491-96b7-7d03fb31e31f" name="Changes" comment="Metodología EL1" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;candelasanzm&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="69c8b686-1b7d-4783-a522-1069acba9405" />
+        <option name="url" value="https://github.com/candelasanzm/EL1.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2coMddNzEMUI9vPYovJfA7rOpEx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainAuthorBook.executor": "Coverage",
+    "Application.MainCircle.executor": "Coverage",
+    "Application.MainClaseAccount.executor": "Run",
+    "Application.MainClassBall.executor": "Coverage",
+    "Application.MainClassDate.executor": "Coverage",
+    "Application.MainClassTime.executor": "Coverage",
+    "Application.MainCustomerAccount.executor": "Run",
+    "Application.MainCustomerInvoice.executor": "Run",
+    "Application.MainEmployee.executor": "Coverage",
+    "Application.MainInvoiceItem.executor": "Coverage",
+    "Application.MainMyCircleMyPoint.executor": "Run",
+    "Application.MainMyLineMyPoint.executor": "Coverage",
+    "Application.MainMyPoint.executor": "Run",
+    "Application.MainMyTriangleMyPoint.executor": "Run",
+    "Application.MainPersonStudentStaff.executor": "Run",
+    "Application.MainRectangle.executor": "Coverage",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AccountTest.executor": "Coverage",
+    "JUnit.AuthorTest.executor": "Coverage",
+    "JUnit.BookTest.executor": "Coverage",
+    "JUnit.CircleTest.executor": "Coverage",
+    "JUnit.ClaseAccountTest.credit.executor": "Run",
+    "JUnit.ClaseAccountTest.debit.executor": "Run",
+    "JUnit.ClaseAccountTest.executor": "Run",
+    "JUnit.ClassBallTest.executor": "Coverage",
+    "JUnit.ClassDateTest.executor": "Coverage",
+    "JUnit.ClassTimeTest.executor": "Coverage",
+    "JUnit.Customer2Test.executor": "Coverage",
+    "JUnit.CustomerTest.executor": "Coverage",
+    "JUnit.EmployeeTest.executor": "Coverage",
+    "JUnit.EmployeeTest.raiseSalary.executor": "Run",
+    "JUnit.InvoiceItemTest.executor": "Coverage",
+    "JUnit.InvoiceTest.executor": "Coverage",
+    "JUnit.MyCircleTest.executor": "Coverage",
+    "JUnit.MyLineTest.executor": "Coverage",
+    "JUnit.MyPointTest.executor": "Coverage",
+    "JUnit.MyTriangleTest.executor": "Coverage",
+    "JUnit.PersonTest.executor": "Coverage",
+    "JUnit.Point2DTest.executor": "Coverage",
+    "JUnit.Point3DTest.executor": "Coverage",
+    "JUnit.RectangleTest.executor": "Coverage",
+    "JUnit.StaffTest.executor": "Coverage",
+    "JUnit.StudentTest.executor": "Coverage",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/sanzm/OneDrive/Escritorio/UAH/1º Año/2º Cuatrimestre/Metodología de la programación/EL1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Candela\OneDrive\Escritorio\UAH\1º Año\2º Cuatrimestre\Metodología de la programación\EL1\SOO3" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="SOO5.Herencia.Clases" />
+      <recent name="SOO4.Clases" />
+      <recent name="SOO3.Clases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StudentTest">
+    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EL1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SOO5.Herencia.Clases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SOO5.Herencia.Clases" />
+      <option name="MAIN_CLASS_NAME" value="SOO5.Herencia.Clases.PersonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Point2DTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EL1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SOO5.Herencia.Clases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SOO5.Herencia.Clases" />
+      <option name="MAIN_CLASS_NAME" value="SOO5.Herencia.Clases.Point2DTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Point3DTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EL1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SOO5.Herencia.Clases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SOO5.Herencia.Clases" />
+      <option name="MAIN_CLASS_NAME" value="SOO5.Herencia.Clases.Point3DTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaffTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EL1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SOO5.Herencia.Clases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SOO5.Herencia.Clases" />
+      <option name="MAIN_CLASS_NAME" value="SOO5.Herencia.Clases.StaffTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EL1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SOO5.Herencia.Clases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SOO5.Herencia.Clases" />
+      <option name="MAIN_CLASS_NAME" value="SOO5.Herencia.Clases.StudentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StudentTest" />
+        <item itemvalue="JUnit.StaffTest" />
+        <item itemvalue="JUnit.Point3DTest" />
+        <item itemvalue="JUnit.Point2DTest" />
+        <item itemvalue="JUnit.PersonTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c989a0ad-76e0-4491-96b7-7d03fb31e31f" name="Changes" comment="" />
+      <created>1708773567912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708773567912</updated>
+      <workItem from="1708773569291" duration="1896000" />
+      <workItem from="1708858097039" duration="8000" />
+      <workItem from="1708858113052" duration="15847000" />
+      <workItem from="1708885335913" duration="224000" />
+      <workItem from="1709052432275" duration="3791000" />
+      <workItem from="1709056239772" duration="9831000" />
+      <workItem from="1709119981816" duration="19608000" />
+      <workItem from="1709155543427" duration="2420000" />
+      <workItem from="1709205538164" duration="5652000" />
+      <workItem from="1709214135720" duration="1316000" />
+      <workItem from="1709218045924" duration="655000" />
+      <workItem from="1709225216281" duration="4980000" />
+    </task>
+    <task id="LOCAL-00001" summary="Metodología EL1">
+      <option name="closed" value="true" />
+      <created>1708774000719</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708774000719</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Metodología EL1">
+      <option name="closed" value="true" />
+      <created>1708774058721</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708774058721</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Metodología EL1">
+      <option name="closed" value="true" />
+      <created>1708858521520</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708858521520</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Metodología EL1">
+      <option name="closed" value="true" />
+      <created>1708885205282</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708885205282</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Metodología EL1">
+      <option name="closed" value="true" />
+      <created>1709065648371</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709065648371</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Metodología EL1">
+      <option name="closed" value="true" />
+      <created>1709137167344</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709137167344</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Metodología EL1">
+      <option name="closed" value="true" />
+      <created>1709152996058</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709152996058</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Metodología EL1">
+      <option name="closed" value="true" />
+      <created>1709217681908</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709217681908</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Metodología EL1">
+      <option name="closed" value="true" />
+      <created>1709218411819</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709218411819</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Metodología EL1">
+      <option name="closed" value="true" />
+      <created>1709229613581</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709229613582</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Metodología EL1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Metodología EL1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/EL1$MainMyTriangleMyPoint.ic" NAME="MainMyTriangleMyPoint Coverage Results" MODIFIED="1709062983493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO4.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$EmployeeTest_raiseSalary.ic" NAME="EmployeeTest.raiseSalary Coverage Results" MODIFIED="1709131737303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$Point2DTest.ic" NAME="Point2DTest Coverage Results" MODIFIED="1709228509524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO5.Herencia.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MainClassBall.ic" NAME="MainClassBall Coverage Results" MODIFIED="1708858817013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$AccountTest.ic" NAME="AccountTest Coverage Results" MODIFIED="1709226493415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO4.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MainAuthorBook.ic" NAME="MainAuthorBook Coverage Results" MODIFIED="1708865179143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO4.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$CircleTest.ic" NAME="CircleTest Coverage Results" MODIFIED="1709225361271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MainMyPoint.ic" NAME="MainMyPoint Coverage Results" MODIFIED="1709062958596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO4.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MainMyLineMyPoint.ic" NAME="MainMyLineMyPoint Coverage Results" MODIFIED="1709062318140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO4.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$BookTest.ic" NAME="BookTest Coverage Results" MODIFIED="1709226647748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO4.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MyLineTest.ic" NAME="MyLineTest Coverage Results" MODIFIED="1709227655435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO4.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$PersonTest.ic" NAME="PersonTest Coverage Results" MODIFIED="1709228453382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO5.Herencia.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MainClassTime.ic" NAME="MainClassTime Coverage Results" MODIFIED="1708858836237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MyPointTest.ic" NAME="MyPointTest Coverage Results" MODIFIED="1709228150380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO4.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$InvoiceItemTest.ic" NAME="InvoiceItemTest Coverage Results" MODIFIED="1709226139378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MainMyCircleMyPoint.ic" NAME="MainMyCircleMyPoint Coverage Results" MODIFIED="1709062332805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO4.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MainInvoiceItem.ic" NAME="MainInvoiceItem Coverage Results" MODIFIED="1708858854690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$EmployeeTest.ic" NAME="EmployeeTest Coverage Results" MODIFIED="1709226073758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$Customer2Test.ic" NAME="Customer2Test Coverage Results" MODIFIED="1709226658918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO4.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MainEmployee.ic" NAME="MainEmployee Coverage Results" MODIFIED="1708858845235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$Point3DTest.ic" NAME="Point3DTest Coverage Results" MODIFIED="1709228549242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO5.Herencia.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$StudentTest.ic" NAME="StudentTest Coverage Results" MODIFIED="1709228565185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO5.Herencia.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MainCircle.ic" NAME="MainCircle Coverage Results" MODIFIED="1708858803025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$RectangleTest.ic" NAME="RectangleTest Coverage Results" MODIFIED="1709226206410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$ClaseAccountTest_debit.ic" NAME="ClaseAccountTest.debit Coverage Results" MODIFIED="1709065101937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MyCircleTest.ic" NAME="MyCircleTest Coverage Results" MODIFIED="1709228161596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO4.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$StaffTest.ic" NAME="StaffTest Coverage Results" MODIFIED="1709228559392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO5.Herencia.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MainClaseAccount.ic" NAME="MainClaseAccount Coverage Results" MODIFIED="1708858893215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MainCustomerAccount.ic" NAME="MainCustomerAccount Coverage Results" MODIFIED="1708883182866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO4.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MainRectangle.ic" NAME="MainRectangle Coverage Results" MODIFIED="1708858865388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$ClassBallTest.ic" NAME="ClassBallTest Coverage Results" MODIFIED="1709225947801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MainClassDate.ic" NAME="MainClassDate Coverage Results" MODIFIED="1708858826378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$ClassDateTest.ic" NAME="ClassDateTest Coverage Results" MODIFIED="1709225958818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$InvoiceTest.ic" NAME="InvoiceTest Coverage Results" MODIFIED="1709226684730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO4.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$AuthorTest.ic" NAME="AuthorTest Coverage Results" MODIFIED="1709226508275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO4.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MyTriangleTest.ic" NAME="MyTriangleTest Coverage Results" MODIFIED="1709228429218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO4.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$MainCustomerInvoice.ic" NAME="MainCustomerInvoice Coverage Results" MODIFIED="1708871423808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO4.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$ClaseAccountTest.ic" NAME="ClaseAccountTest Coverage Results" MODIFIED="1709225641951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$ClassTimeTest.ic" NAME="ClassTimeTest Coverage Results" MODIFIED="1709225970063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO3.Clases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/EL1$CustomerTest.ic" NAME="CustomerTest Coverage Results" MODIFIED="1709226669940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SOO4.Clases.*</FILTER>
+    </SUITE>
+  </component>
+</project>
