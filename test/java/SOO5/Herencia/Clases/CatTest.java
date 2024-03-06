@@ -12,4 +12,10 @@ class CatTest {
         Cat c1 = new Cat("Lúa");
         assertEquals("Cat [" + m1 + "]", c1.toString());
     }
+    @Test
+    void greets() {
+        Mammal m1 = new Mammal("Lúa");
+        Cat c1 = new Cat("Lúa");
+        c1.greets();
+    }
 }
