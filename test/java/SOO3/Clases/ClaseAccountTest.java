@@ -35,7 +35,7 @@ class ClaseAccountTest {
         ClaseAccount c1 = new ClaseAccount("A101", "Tan Ah Teck", 88);
         ClaseAccount c2 = new ClaseAccount("A101", "Tan Ah Teck", 88);
         assertEquals(38, c1.debit(50));
-        assertEquals(38, c2.debit(50), "Amount exceeded balance");
+        assertEquals(88, c2.debit(100), "Amount exceeded balance");
     }
 
     @Test

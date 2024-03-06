@@ -25,14 +25,14 @@ class MyCircleTest {
     @Test
     void getCenter() {
         MyPoint centro2 = new MyPoint(0, 0);
-        MyCircle circle2 = new MyCircle(centro2, 1);
+        MyCircle circle2 = new MyCircle(0,0, 1);
         assertEquals(centro2, circle2.getCenter());
     }
 
     @Test
     void setCenter() {
         MyPoint centro2 = new MyPoint(0, 0);
-        MyCircle circle2 = new MyCircle(centro2, 1);
+        MyCircle circle2 = new MyCircle();
         circle2.setCenter(centro2);
         assertEquals(centro2, circle2.getCenter());
     }
@@ -48,7 +48,7 @@ class MyCircleTest {
     void setCenterX() {
         MyPoint centro1 = new MyPoint(1, 2);
         MyCircle circle1 = new MyCircle(centro1, 1);
-        centro1.setX(1);
+        circle1.setCenterX(1);
         assertEquals(1, circle1.getCenterX());
     }
 
@@ -63,7 +63,7 @@ class MyCircleTest {
     void setCenterY() {
         MyPoint centro1 = new MyPoint(1, 2);
         MyCircle circle1 = new MyCircle(centro1, 1);
-        centro1.setY(2);
+        circle1.setCenterY(2);
         assertEquals(2, circle1.getCenterY());
     }
 
@@ -79,7 +79,7 @@ class MyCircleTest {
     void setCenterXY() {
         MyPoint centro1 = new MyPoint(1, 2);
         MyCircle circle1 = new MyCircle(centro1, 1);
-        centro1.setXY(1,2);
+        circle1.setCenterXY(1,2);
         int [] center1 = new int [] {1, 2};
         assertArrayEquals(center1, circle1.getCenterXY());
     }
@@ -109,7 +109,8 @@ class MyCircleTest {
     void distance() {
         MyPoint centro1 = new MyPoint(1, 2);
         MyPoint centro2 = new MyPoint(0, 0);
-        MyCircle c1 = new MyCircle();
-        assertEquals(Math.sqrt(5), centro1.distance(centro2));
+        MyCircle c1 = new MyCircle(centro2, 1);
+        MyCircle c2 = new MyCircle(centro1, 1);
+        assertEquals(Math.sqrt(5), c1.distance(c2));
     }
 }

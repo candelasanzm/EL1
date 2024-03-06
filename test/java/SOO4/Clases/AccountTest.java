@@ -63,5 +63,6 @@ class AccountTest {
         Account a1 = new Account(101, c21, 888.8);
         Account a2 = new Account(101, c21, 888.8);
         assertEquals(a1, a1.withdraw(50),"amount widthdrawn exceeds the current balance!");
+        assertEquals(a2, a2.withdraw(900),"amount widthdrawn exceeds the current balance!");
     }
 }

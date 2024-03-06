@@ -27,8 +27,7 @@ class EmployeeTest {
     @Test
     void getName() {
         Employee e1 = new Employee(8, "Peter", "Tan", 2500);
-        assertEquals("Peter", e1.getFirstName());
-        assertEquals("Tan", e1.getLastName());
+        assertEquals("Peter Tan", e1.getName());
     }
 
     @Test

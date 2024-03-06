@@ -63,12 +63,16 @@ class ClassTimeTest {
     @Test
     void nextSecond() {
         ClassTime t1 = new ClassTime(1, 2, 3);
+        ClassTime t2 = new ClassTime(1, 2, 63);
         assertEquals(t1, t1.nextSecond());
+        assertEquals(t2, t2.nextSecond());
     }
 
     @Test
     void previousSecond() {
         ClassTime t1 = new ClassTime(1, 2, 3);
+        ClassTime t2 = new ClassTime(1, 2, -2);
         assertEquals(t1, t1.previousSecond());
+        assertEquals(t2, t2.previousSecond());
     }
 }

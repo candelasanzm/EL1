@@ -14,7 +14,7 @@ class RectangleTest {
 
     @Test
     void setLength() {
-        Rectangle r1 = new Rectangle(1.2f, 3.4f);
+        Rectangle r1 = new Rectangle();
         r1.setLength(5.6f);
         assertEquals(5.6f, r1.getLength());
     }
